@@ -27,6 +27,13 @@
 .our-team-style {background-color:var(--button-background-color);
 }
 
+
+
+
+
+
+
+
 .logo-style { 
     color:var(--header-logo-studio-color); 
     font-family: "Raleway";
@@ -51,13 +58,10 @@
     font-weight: 500; 
     list-style:none; 
     line-height: normal; 
+    color: var(--main-text-color);
 }
 
-.link-header-style, .link:visited {
-    color:var(--main-text-color)
-}
-
-.link-header-style .link:hover,.link-header-style .link:focus, .link-header-style .link:active{
+ .link:hover,.link:focus{
     color:var(--main-activ-text-color);
 }
 
@@ -75,7 +79,7 @@
     font-weight: 500;
 }
 
-.header-contacts, .contact:hover{
+.contact:hover, .contact:focus{
     color:var(--main-activ-text-color);
 }
 

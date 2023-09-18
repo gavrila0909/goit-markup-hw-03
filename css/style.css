@@ -14,7 +14,7 @@
     font-family:var(--main-text-style); 
     font-style: normal; 
     color:var(--main-text-color);
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -29,7 +29,9 @@
     background-color:var(--button-background-color);
 }
 
-
+.nav-section-portofolio{
+    border-bottom:1px red ;
+}
 
 .header-div-container{
     display: flex;
@@ -78,9 +80,12 @@
     padding-bottom: 200px;
 }
 
-.about-os-style{
+.about-us-style{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 94px 0px 94px 0px;
 }
 
 
@@ -88,11 +93,11 @@
 .features-style{ 
     display:flex;
     flex-direction: row;
-    margin: 94px 215px 94px 215px;
     justify-content: space-between;
     align-items: center;
-    width: 1170px;
-    column-gap: 30px;
+    width: 100%;
+    column-gap: 30px;  
+    margin: 0px 215px 94px 215px;
 }
 .feature-h2{ 
     margin: 0px 701px 0px 701px;
@@ -100,12 +105,12 @@
 }
 .feature-img-style{
     list-style: none;
-    max-width: 100%;
+    width: 1170px;
     height: auto;
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 215px 94px 215px;
+    margin: 50px 215px 0px 215px;
     column-gap: 30px;
 }
 
@@ -119,6 +124,7 @@
     padding: 94px 0px 94px 0px;
 }
 .our-team-style h2{
+    width: 165px;
     align-items: center;
     margin:0px 717px 50px 718px;
 }
@@ -128,8 +134,7 @@
     flex-direction: row;
     align-items: center;
     width: 1170px;
-    margin: 0px 215px 0px 215px ;
-    padding: 0px 0px 0px 0px; 
+    margin: 0px 215px 0px 215px ; 
     column-gap: 30px;
 }
 .staf-style img{
@@ -150,23 +155,21 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
-.logo-style{ 
-    
-    margin: 0px 1260px 0px 215px;
+ .logo-style{ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+    margin-right: 1240;
+    padding-bottom: 28px; 
 }
- .footer-address-container address{
-    margin-top: 28px;}
-
-
-
-
-
-
+.adr1, .adr2, .adr3{margin-left:215px;
+}
 
 .footer-studio-style{
     color:var(--white-color);
 }
+
+
 
 .logo-style { 
     color:var(--header-logo-studio-color); 
@@ -250,11 +253,29 @@
 
 
 
+.main-style{
+    width: 100%;
+    padding-top: 94px;
+    padding-bottom: 94px ;
+}
 
 
 .portofolio-buttons{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
 }
+
+.portofolio-img-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100%-60px)/3 );
+    column-gap: 30px;
+}
+
 
 .buttons-style{
     background-color:var(--button-background-color); 

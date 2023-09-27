@@ -38,8 +38,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0px 215px 0px 215px;
-    width: 75%;
+    justify-content: center;
     border-bottom: 1px solid #EEE;
 }
 
@@ -85,22 +84,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 94px 0px 94px 0px;
 }
 .features-style{ 
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 1170px;
     column-gap: 30px;
     padding: 0px 0px 0px 0px;  
     margin: 0px 215px 94px 215px;
 }
 .feature-h2{ 
     margin: 0px 701px 0px 701px;
-    Width: 198px
+    Width: 198px;
+    justify-content: center;
 }
 .feature-img-style{
     list-style: none;
@@ -108,6 +109,7 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 75%;
     padding: 0px 0px 0px 0px;
     margin: 50px 215px 0px 215px;
@@ -119,13 +121,13 @@
     display: flex; 
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     padding: 94px 0px 94px 0px;
     
 }
 .our-team-style h2{
     width: 165px;
-    align-items: center;
     margin:0px 717px 50px 718px;
 }
 .staf-style{ 
@@ -133,6 +135,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 75%;
     padding: 0px;
     margin: 0px; 
@@ -184,14 +187,15 @@
 /* Portofolio margin/padding section*/
 
 .main-style{
-    width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .portofolio-section{
-     width: 1170px;
-     margin: 0px 215px;
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 .portofolio-buttons{
@@ -206,18 +210,18 @@
 }
 
 .portofolio-img-section {
-    display: flex;
-    margin: 50px 0px 0px;
+    padding-top: 50px;
+    justify-content: center;
 }
 .our-portofolio-style{
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 30px;
    padding: 0px;
    list-style: none;
    margin: 0px;
 }
-
 .our-portofolio-style li img{
   max-width: 100%;
   height: auto; 
@@ -228,7 +232,7 @@
     background-color: var(--white-color);
     border-top: none;
     border: 2px solid #EEE;
-    flex-basis: calc((100%-60px)/3);
+    
 }
 .our-portofolio-style li span{
     margin: 0px 24px;
